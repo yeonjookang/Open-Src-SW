@@ -66,7 +66,6 @@ public class indexer {
 			arr1 = list1.toArray(new String[0]);
 		}
 		
-		System.out.println(Arrays.toString(arr1));
 		
 		String[] arr3 = {}; //key 값과 value 값을 분리해내기 위한 #을 추가안한 배열
 		
@@ -98,7 +97,7 @@ public class indexer {
 		
 		
 		String[] keyarr=keylist.toArray(new String[0]);
-		System.out.println(Arrays.toString(keyarr));
+
 		//keyarr 는 key 값을 모아둔 배열
 		List<Integer> valuelist = new ArrayList<>();
 		for(int i=0;i<ArrayStr.length/2;i++){
@@ -106,7 +105,7 @@ public class indexer {
 		}
 		
 		Integer[]  valuearr=valuelist.toArray(new Integer[0]);
-		System.out.println(Arrays.toString(valuearr));
+
 		//valuearr 는 value 값을 모아둔 배열
 		
 		String[] arr4 = {};
@@ -132,7 +131,7 @@ public class indexer {
 			arr4 = list1.toArray(new String[0]);
 		}
 		
-		System.out.println(Arrays.toString(arr4));
+
 		
 		
 		for(int i=0;i<keyarr.length;i++) {
